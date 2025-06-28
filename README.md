@@ -20,83 +20,83 @@ This system uses a pre-trained deep learning model based on the Wav2Vec2 archite
 This project is particularly useful for accessibility solutions, transcription services, developers building voice-enabled applications, and researchers working with audio data.
 
 ## Tools and Technologies Used
-Python: The programming language used for the entire project, known for its simplicity and robust AI libraries.
+- **Python**: The programming language used for the entire project, known for its simplicity and robust AI libraries.
 
-Transformers (HuggingFace): Provides access to pre-trained models like Wav2Vec2 for accurate speech recognition.
+- **Transformers (HuggingFace)**: Provides access to pre-trained models like Wav2Vec2 for accurate speech recognition.
 
-Torchaudio: A PyTorch library for audio processing tasks, including loading and transforming audio inputs.
+- **Torchaudio**: A PyTorch library for audio processing tasks, including loading and transforming audio inputs.
 
-SpeechRecognition: Used for capturing microphone input and acting as a lightweight speech-to-text engine fallback.
+- **SpeechRecognition**: Used for capturing microphone input and acting as a lightweight speech-to-text engine fallback.
 
-SoundFile & Librosa: Handle audio format compatibility, sampling rate conversion, and waveform analysis.
+- **SoundFile & Librosa**: Handle audio format compatibility, sampling rate conversion, and waveform analysis.
 
 ## Why These Tools Were Selected
-Wav2Vec2 delivers state-of-the-art accuracy without requiring custom training.
+- **Wav2Vec2** delivers state-of-the-art accuracy without requiring custom training.
 
-Transformers simplifies integration of powerful pre-trained models.
+- **Transformers** simplifies integration of powerful pre-trained models.
 
-Torchaudio and Librosa allow efficient and flexible audio handling across different formats.
+- **Torchaudio** and Librosa allow efficient and flexible audio handling across different formats.
 
-Python’s ecosystem enables rapid development and deployment of AI applications.
+- **Python’s** ecosystem enables rapid development and deployment of AI applications.
 
 ## Features
-Speech-to-text transcription using pre-trained Wav2Vec2.
+- **Speech-to-text** transcription using pre-trained Wav2Vec2.
 
-Support for microphone input and audio files (WAV).
+- **Support** for microphone input and audio files (WAV).
 
-Real-time or batch transcription capability.
+- **Real-time** or batch transcription capability.
 
-Lightweight command-line interface for quick testing and use.
+- **Lightweight** command-line interface for quick testing and use.
 
-Language model (optional) for enhanced accuracy and sentence formation.
+- **Language** model (optional) for enhanced accuracy and sentence formation.
 
 ## Advantages
-High accuracy on English audio using cutting-edge deep learning models.
+- **High** accuracy on English audio using cutting-edge deep learning models.
 
-Flexible input options, including microphone or audio files.
+- **Flexible** input options, including microphone or audio files.
 
-No GPU required for basic transcription tasks.
+- **No** GPU required for basic transcription tasks.
 
-Offline-capable with local model setup.
+- **Offline-capable** with local model setup.
 
-Open-source and extendable, with support for integration into larger voice-based systems.
+- **Open-source** and extendable, with support for integration into larger voice-based systems.
 
 ## Limitations
-English-only support in the current version.
+- **English-only** support in the current version.
 
-No punctuation or formatting in raw output (unless post-processed).
+- **No** punctuation or formatting in raw output (unless post-processed).
 
-Background noise can affect transcription quality.
+- **Background** noise can affect transcription quality.
 
-Latency in real-time transcription on low-performance systems.
+- **Latency** in real-time transcription on low-performance systems.
 
-Requires internet to download models unless cached or stored locally.
+- **Requires** internet to download models unless cached or stored locally.
 
 ## Real-Time Applications
-Voice Assistants: Powering conversational interfaces and command interpretation.
+- **Voice Assistants**: Powering conversational interfaces and command interpretation.
 
-Lecture and Meeting Transcription: Document spoken content for review and records.
+- **Lecture and Meeting Transcription**: Document spoken content for review and records.
 
-Accessibility Solutions: Helping individuals with hearing impairments understand spoken information.
+- **Accessibility Solutions**: Helping individuals with hearing impairments understand spoken information.
 
-Customer Service: Converting call center conversations into text for analysis.
+- **Customer Service**: Converting call center conversations into text for analysis.
 
-Content Creation: Helping bloggers or YouTubers convert spoken scripts into written content.
+- **Content Creation**: Helping bloggers or YouTubers convert spoken scripts into written content.
 
-Interview Documentation: Simplifying journalist or research work.
+- **Interview Documentation**: Simplifying journalist or research work.
 
 ## Future Enhancements
-Add punctuation restoration for cleaner and more readable output.
+- **Add** punctuation restoration for cleaner and more readable output.
 
-Multilingual support for broader applicability.
+- **Multilingual** support for broader applicability.
 
-Speaker diarization to distinguish between multiple speakers in a conversation.
+- **Speaker** diarization to distinguish between multiple speakers in a conversation.
 
-File input from MP3, MP4, or streaming sources.
+- **File** input from MP3, MP4, or streaming sources.
 
-GUI/Web version for accessibility by non-programmers.
+- **GUI/Web** version for accessibility by non-programmers.
 
-API-based deployment for integration into third-party apps or platforms.
+- **API-based** deployment for integration into third-party apps or platforms.
 
 ## Conclusion
 The Speech Recognition System provides a reliable and accurate method of converting spoken words into text using modern NLP and deep learning methods. With real-world applications across education, business, and accessibility, this project offers a strong foundation for further development into a production-grade ASR system or voice assistant tool.
