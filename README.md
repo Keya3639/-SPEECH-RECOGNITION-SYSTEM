@@ -100,3 +100,7 @@ This project is particularly useful for accessibility solutions, transcription s
 
 ## Conclusion
 The Speech Recognition System provides a reliable and accurate method of converting spoken words into text using modern NLP and deep learning methods. With real-world applications across education, business, and accessibility, this project offers a strong foundation for further development into a production-grade ASR system or voice assistant tool.
+
+## OUTPUT:
+
+
