@@ -103,4 +103,5 @@ The Speech Recognition System provides a reliable and accurate method of convert
 
 ## OUTPUT:
 
+![Image](https://github.com/user-attachments/assets/45de3ec5-90a9-4a62-8a4c-fe833777c6b5)
 
